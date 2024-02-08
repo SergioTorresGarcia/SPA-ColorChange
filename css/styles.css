@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#container {
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+
+#btn {
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+}
+
+#color1 {
+    background-color: lightpink;
+}
+
+#color2 {
+    background-color: lightblue;
+}
+
+#color3 {
+    background-color: lightgreen;
+}
+
+#color4 {
+    background-color: lightyellow;
+}
+
+#color5 {
+    background-color: lightgray;
+}
+
+.display {
+    display: block;
+}
